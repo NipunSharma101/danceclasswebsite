@@ -20,13 +20,14 @@ app.use(express.urlencoded())
 // ++pug specific stuff++
 app.set('view engine', 'pug')//set the template engine as pug
 app.set('views',  path.join(__dirname,'views'))// set the views directory
+// we can sue path.join because we have imported path in line 2 of this file.
 // --pug specific stuff--
 
 
 //++endpoints++
 app.get('/', (req,res) =>{
-    const con = "this is a website for the dance academy"
-    const params = {'title': 'dance academy'}
+    
+    const params = { }
     res.status(200).render('index.pug', params);
 })
 // --endpoints--

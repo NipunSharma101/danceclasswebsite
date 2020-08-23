@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Srisakdi&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration:none;
+    padding: 13px 30px;
+}
+
+#introSection{
+    font-family: 'Srisakdi', cursive;
+    font-size: 50px;
+    color: #dbbbaa;
+    padding-bottom: 0px;
+    padding-top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("./static/bgPic.jpg");
+    height: 300px;
+    ;
+    
+}
+
+#sponsorSection{
+    background-color: #9c0000cc;
+}
+
+#footer{
+    background-color: yellow;
+}
