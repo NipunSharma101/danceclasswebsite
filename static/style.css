@@ -28,6 +28,12 @@
     padding: 13px 30px;
 }
 
+#navbar li a:hover {
+    color: #c7716b;
+    text-decoration:none;
+    padding: 13px 30px;
+}
+
 #introSection{
     font-family: 'Srisakdi', cursive;
     font-size: 50px;
@@ -43,8 +49,13 @@
     
 }
 
-#sponsorSection{
+#sponsorSection {
     background-color: #9c0000cc;
+}
+#sponsorSection h3{
+    font-family: 'Roboto Condensed', sans-serif; ;
+    text-align: center;
+    padding-top: 12px;
 }
 
 #footer{
